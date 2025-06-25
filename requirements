@@ -1,6 +1,5 @@
-streamlit==1.46.0
+streamlit
 streamlit_option_menu
 pandas
 numpy
 scikit-learn
-# Add any other packages your app uses
