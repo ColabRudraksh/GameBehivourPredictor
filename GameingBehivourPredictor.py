@@ -20,9 +20,9 @@ def predict(input_data):
 def main():
     st.title("🎮 Online Gaming Engagement Prediction App")
 
-    # Input fields based on image columns
+    # Input fields
     Age = st.text_input("Age")
-    Gender = st.selectbox("Gender", ['Male', 'Female'])  # Encoded as Male=1, Female=0
+    Gender = st.selectbox("Gender", ['Male', 'Female'])  # Male=1, Female=0
     Location = st.selectbox("Location", ['USA', 'Europe', 'Asia', 'Other'])  # Encode manually
     GameGenre = st.selectbox("Game Genre", ['Strategy', 'Sports', 'Action'])  # Encode manually
     PlayTimeHours = st.text_input("Play Time Hours")
