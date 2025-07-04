@@ -1,7 +1,7 @@
 import pickle
 import streamlit as st
 import numpy as np
-from streamlit-option-menu import option_menu
+from streamlit_option_menu import option_menu
 
 # Load trained model
 w = pickle.load(open(r'og_trained_model.sav', 'rb'))
